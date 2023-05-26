@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="/dist/output.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+      <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+      </style>
+
+
+</head>
+<body class="bg-slate-600">
+    <nav class="bg-gray-500 grid grid-cols-2 border-y-8 " id="navbar">
+      <div class="container">
+            <a class="home" href="home"><i class="fa fa-home"></i>HOME</a>
+      </div>
+      <div class="grid grid-cols-4 " id="side-bar">
+            <a class=""href="about">
+                <i class="fa-solid fa-address-card"></i>ABOUT</a>
+            <a class="" href="socials">SOCIALS</a>
+            <a class="" href="work">
+                <i class="fa fa-th"></i> WORK</a>
+            <a href="contact"><i class="fa fa-envelope-o"></i> CONTACT</a>
+        </div>  
+    </nav>
+    <header>
+
+    </header> 
+</body>
+</html>
+
