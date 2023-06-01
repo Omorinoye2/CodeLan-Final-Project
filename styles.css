@@ -2,8 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
+/* html, body{
+    maximum-width: 100%;
+}
+body{
+    width: 100%;
+} */
+header{
+    background-position: center;
+    background-size: cover;
+    background-image: url(web.jpg.crdownload);
+    min-height: 100%;
+    display:block;
+    padding: 254px;
+}
 
 
+
+.span1 {
+    font-size:34px !important;
+    marging-top:0px
+   
+}
+.span2{
+    font-size:24px !important;
+    marging-top:0px
+}
+
+.span3{
+    font-weight:bold !important;
+    color:rgb(220,125,220) !important;
+}
 
 #navbar{
 display: grid;
@@ -11,36 +40,61 @@ justify-content: flex-end;
 border-style: solid;
 border-width: 5px;
 border-color: #92869c;
-height: 55px;
+height: 60px;
 width: 100%;
 padding: 10px;
 text-align: center;
 color: #92869c;
+background-color:rgb(255,255,255);
 
 }
 
-.home{
+.container{
     display: flex;
     justify-content:start;
+    font-size:20px;
 }
 
 #side-bar{
     display: flex;
-    justify-content:end;
+    justify-content:right;
+    padding-right: 70px;
+    font-size:20px;
+
     
 }
+
+.right {
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+}
+
 #side-bar a{
     padding-left: 10px;
     align-items: center;
     
 }
-i{
-    ::before}
+.learn{
+background-color: #92869c;
 
-fa {
-    display: inline-block;
- font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
+border-width:2px;
+border-color: #92869c;
+  padding: 15px;
+  display: block;
+
+  
+    
+}
+.all{
+    position: absolute;
+    right: 3%;
+    top: 20%;
+    color: #9c9c2f !important;
     }
+    
+/* .play{
+        size: 12px;
+    } */
